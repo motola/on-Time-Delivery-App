@@ -1,0 +1,30 @@
+{
+  "name": "on-time-delivery-app",
+  "version": "1.0.0",
+  "description": "On Time Delivery is a service that helps users deliver parcels to different destinations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/motola/on-Time-Delivery-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/motola/on-Time-Delivery-App/issues"
+  },
+  "homepage": "https://github.com/motola/on-Time-Delivery-App#readme",
+  "devDependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
