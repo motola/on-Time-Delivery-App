@@ -1,19 +1,17 @@
 let parcel = [
     {
-    userId: 1,
-    parcel: 'Brogues',
-    deliveryPrice: '$3.55'
+    userId: 1, /** I used userId instead of parcelId, it gives me more context  */
+    parcelItem: 'Brogues',
+    deliveryPrice: '$3.55',
+    location: 'GRA Ikeja'
     },
     {
     userId: 2,
-    parcel: 'Oxford Menswear',
-    deliveryPrice: '$4.55'
+    parcelItem: 'Oxford Menswear',
+    deliveryPrice: '$4.55',
+    location: 'Mushin'
     },
-    {
-    userId: 3,
-    parcel: 'Jamaican Wig',
-    deliveryPrice: '$4.55'
-    },
+     
 ];
 
 module.exports = { parcel } 
