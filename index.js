@@ -47,8 +47,9 @@ app.use("/auth", userRouter);
 
 
 
-
-
+app.get("/", (req, res) => {
+    res.status(200).json('Welcome to on Time Delivery Application')
+});
 
 
 
